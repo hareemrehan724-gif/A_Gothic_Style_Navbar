@@ -1,0 +1,54 @@
+.nav-goth-pill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #09090b, #230918, #1a0b2e);
+  color: #f4f4f5;
+  padding: 14px 8%;
+  border-radius: 0 0 24px 24px;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.nav-goth-pill .logo {
+  font-size: 21px;
+  font-weight: bold;
+  color: #dc2626;
+  background-color: #2e0914;
+  padding: 7px 18px;
+  border-radius: 25px;
+  letter-spacing: 2px;
+}
+
+.nav-goth-pill .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+}
+
+.nav-goth-pill .nav-links a {
+  text-decoration: none;
+  color: #e4e4e7;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 7px 16px;
+  border-radius: 20px;
+}
+
+.nav-goth-pill .nav-links a:hover {
+  background-color: #4c0519;
+  color: #f87171;
+}
+
+.nav-goth-pill .goth-btn {
+  text-decoration: none;
+  background: linear-gradient(135deg, #7f1d1d, #581c87);
+  color: #ffffff;
+  padding: 9px 22px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.nav-goth-pill .goth-btn:hover {
+  background: linear-gradient(135deg, #b91c1c, #6b21a8);
+}
